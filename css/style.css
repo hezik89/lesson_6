@@ -1,0 +1,238 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Oswald:wght@300;400;700&family=Roboto:wght@700;900&display=swap');
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Bold.woff2) format("woff2"), url(../fonts/ProximaNova-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url(../fonts/ProximaNova-Regular.woff2) format("woff2"), url(../fonts/ProximaNova-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Circular Std;
+    src: url(../fonts/CircularStd-Medium.woff2) format("woff2"), url(../fonts/CircularStd-Medium.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Circular Std;
+    src: url(../fonts/CircularStd-Bold.woff2) format("woff2"), url(../fonts/CircularStd-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Lato;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    padding: 30px;
+}
+
+.header__list-item {
+    display: inline-block;
+    padding: 10px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 168, 197)
+}
+
+.header__p {
+    font-family: ProximaNova;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(12, 172, 221)
+}
+
+.main__h1 {
+    padding: 30px;
+    border: 1px solid rgb(0, 168, 197);
+    margin-bottom: 30px;
+}
+
+.main__part-1-1 {
+    padding: 30px;
+    border: 3px dashed rgb(0, 168, 197);
+    margin-bottom: 15px;
+}
+
+.main__part-1-2 {
+    padding: 30px;
+    border: 3px dotted rgb(0, 168, 197);
+    margin-bottom: 15px;
+}
+
+.main__h2 {
+    padding: 30px;
+    border: 4px double rgb(0, 168, 197);
+    margin-bottom: 15px;
+}
+
+.main__part-2-span {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.main__part-2-span-1 {
+    border-top: 1px solid rgb(0, 168, 197);
+}
+
+.main__part-2-span-2 {
+    border-right: 1px solid rgb(0, 168, 197);
+}
+
+.main__part-2-span-3 {
+    border-bottom: 1px solid rgb(0, 168, 197);
+}
+
+.main__part-2-span-4 {
+    border-left: 1px solid rgb(0, 168, 197);
+}
+
+.main__part-2-img {
+    display: inline-block;
+    max-width: 200px;
+    padding: 30px;
+}
+
+.main__part-2-img-1 {
+    border-radius: 50%;
+}
+
+.main__part-2-img-2 {
+    border-radius: 60px 0px 0px 0px;
+}
+
+.main__part-2-img-3 {
+    border-radius: 0px 60px 0px 0px;
+}
+
+.main__part-2-img-4 {
+    border-radius: 0px 0px 60px 0px;
+    margin-bottom: 15px;
+}
+
+.main__part-2-1 {
+    padding: 30px;
+    outline: 1px solid rgb(0, 168, 197);
+    margin-bottom: 30px;
+}
+
+.main__part-2-2 {
+    padding: 30px;
+    box-shadow: inset 5px -10px 5px 5px rgba(0, 168, 197, 0.521);
+}
+
+.footer {
+    display: inline-block;
+    padding: 30px;
+}
+
+.footer__img {
+    max-width: 200px;
+}
+
+.footer__img-1 {
+    opacity: 0;
+}
+
+.footer__img-2 {
+    visibility: hidden;
+}
+
+.footer__img-3 {
+    display: none;
+}
+
+
+/* Вторая страница */
+
+.header__h1 {
+    font-family: Circular Std;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #313131;
+    margin-bottom: 15px;
+}
+
+.header__p1 {
+    font-family: Circular Std;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5F5F5F;
+}
+
+.main__1-h2 {
+    font-family: Circular Std;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #313131;
+    margin-bottom: 15px;
+}
+
+.main__1-p {
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5F5F5F;
+    margin-bottom: 30px;
+}
+
+.main__2-h3 {
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #313131;
+}
+
+.main__2-p {
+    font-family: Circular Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B8B8B8;
+}
